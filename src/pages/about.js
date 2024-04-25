@@ -3,16 +3,15 @@ import * as React from 'react'
 import Layout from '../components/layout'
 
 // Step 2: Define your component
-const IndexPage = () => {
+const AboutPage = () => {
   return (
     <Layout PageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+        <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
     </Layout>
   )
 }
 
-// You'll learn about this in the next task, just copy it for now
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>About Me</title>
 
 // Step 3: Export your component
-export default IndexPage
+export default AboutPage
